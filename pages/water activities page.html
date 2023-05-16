@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water activites</title>
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+            /* Add this line for the line under the header */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #highlightClass {
+            background-color: rgba(159, 162, 178, 50%);
+            padding: 0px 3px 0px 3px;
+            border: 0.5px solid #202521;
+            border-radius: 3px;
+            color: white;
+
+        }
+
+        .logo img {
+            height: 50px;
+            padding-right: 200px;
+        }
+
+
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+
+        nav li a:hover {
+            background-color: rgba(159, 162, 178, 50%);
+            color: white;
+        }
+
+
+
+
+        .register {
+            background-color: #ccc;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .register a {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: 0.3s;
+        }
+
+        .register a:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+        .class {
+            display: inline-block;
+            padding: 50px 50px 50px 50px;
+            margin-right: 50px;
+            margin-left: 45px;
+            margin: 25px 50px 25px 45px auto;
+            font-size: 40px;
+            background-color: rgba(32, 37, 33, 70%);
+            border: 1px solid #202521;
+            border-radius: 5px;
+        }
+
+        body {
+            padding-left: 20px;
+            padding-top: 100px;
+            font-family: 'Segoe UI', sans;
+
+            text-align: justify;
+            color: #488d48;
+            background-color: black;
+        }
+
+        .classTypes {
+            display: block;
+            padding: 25px 35px 35px 35px;
+            background-color: rgba(32, 37, 33, 50%);
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #202521;
+            border-radius: 5px
+        }
+
+        #buttonInfo {
+            font-size: 30px;
+        }
+
+        div a {
+            text-decoration: none;
+            color: #727b72;
+            transition: 0.3s;
+        }
+
+        div a:hover {
+            background-color: rgb(159, 162, 178);
+            padding: 5px;
+            border: 0.5px solid #202521;
+            border-radius: 5px;
+            color: #212621;
+        }
+
+        #image {
+            transition: 0.3s;
+        }
+
+        #image:hover {
+            border:none;
+            background-color: #202521;
+            padding: 0px 0px 0px;
+            
+        }
+
+        #id {
+            padding-top: 50%;
+        }
+
+        h2 {
+            display: block;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        h1 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        #outer {
+            text-align: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a #footer {
+            margin: auto;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        #footer:hover {
+
+            background-color: black;
+            color: white;
+            border-color: black;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 100px;
+            font-size: 180%
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="..\main.html" id="image">
+                <img src="..\logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="registrationpage\regiteration.html">Register</a></li>
+                    <li><a href="../classes.html" id="highlightClass">Classes</a></li>
+                    <li><a href="registrationpage\shop.html">Shop</a></li>
+                    <li><a href="../main.html">Main</a></li>
+                    <li><a href="water activities page.html">Water Activities</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="class">
+        <h2>Adults</h2>
+        <a href="#ad">
+            <img src="adults.jpg" alt="adults swimming"></a>
+    </div>
+    <div class="class">
+        <h2>Kids</h2>
+        <a href="#kids">
+            <img src="kids.jpg" alt="kids swimming"></a>
+    </div>
+    <div class="class">
+        <h2>Training</h2>
+        <a href="#t">
+            <img src="training.jpg" alt="training"></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="ad">
+        <p class="classTypes">Our fitness center is dedicated to helping adults of all skill levels learn how to
+            swim.<br>
+            We understand that learning to swim as an adult can come with its own set of challenges and anxieties.
+            That's why our experienced instructors provide a supportive and non-judgmental environment, tailored to meet
+            the needs of adult learners.<br> Whether you're a complete beginner or looking to improve your existing
+            swimming
+            skills, our instructors will guide you through a progressive program designed to enhance your technique and
+            build confidence in the water. <br>Our adult swimming classes focus on stroke development, breathing
+            techniques,
+            and endurance training. With small class sizes and personalized attention, you can feel comfortable and
+            encouraged to reach your swimming goals.<br> Our facility offers a variety of amenities, including heated
+            pools
+            and specialized equipment, to ensure a comfortable and enjoyable learning experience. We believe that it's
+            never too late to learn how to swim and unlock the numerous physical and mental benefits that come with it.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="kids">
+        <p class="classTypes">At our fitness center, we offer exceptional swimming lessons tailored specifically for
+            children.<br>
+            We understand the importance of instilling water confidence and swimming skills at an early age.<br>
+            Our highly trained and experienced instructors create a welcoming and safe environment where kids can learn
+            and excel in swimming. Through progressive and structured lessons,children will develop essential
+            techniques such as floating, kicking, and proper stroke mechanics.<br> We keep class sizes small to ensure
+            personalized attention and a focus on individual progress.<br> With a dedicated kids' swimming area equipped
+            with warm water and age-appropriate amenities, we prioritize the comfort and enjoyment of our young
+            swimmers. Our goal is to nurture a lifelong love for swimming. While also promoting water safety and
+            fostering physical fitness in children.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="t">
+        <p class="classTypes">At our fitness center, we are thrilled to offer comprehensive swimming programs for
+            individuals of all ages and skill levels. Whether you're a child, adult, or senior, our experienced
+            instructors are here to guide you on your swimming journey.<br> From beginners who are just getting comfortable
+            in the water to competitive swimmers looking to improve their performance, our programs are tailored to meet
+            your specific goals. Our state-of-the-art swimming facilities feature well-maintained pools with various
+            depths, ensuring a safe and enjoyable experience for everyone. <br>With small class sizes and individualized
+            attention, our instructors focus on technique, stroke development, and building endurance.<br> We also offer
+            specialized classes such as water aerobics and hydrotherapy for those seeking alternative water-based
+            fitness options.<br> Swimming is not only a great cardiovascular exercise but also a low-impact activity that
+            benefits overall strength, flexibility, and mental well-being. Join us at our fitness center and dive into
+            the world of swimming for a healthier and happier you.</p>
+    </div>
+
+    <div class="footer">
+        <a id="footer" href="#">Back to top</a>
+    </div>
+</body>
+
+</html>
